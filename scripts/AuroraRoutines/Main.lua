@@ -19,3 +19,7 @@ print(d)        --0x0b为16进制数，输出为11
 print(type(e))  --输出为string
 print(type(f))  --输出为string保留原始格式
 print(g)        --输出为asjk汇编
+
+
+
+print(h)          --输出为123
