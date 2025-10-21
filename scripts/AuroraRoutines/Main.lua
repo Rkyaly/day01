@@ -7,14 +7,14 @@
 
 --]]
 
-a,b,c= 1,10     --a=1,b=10,c=nil
+a,b= 1,10     --a=1,b=10,c=nil
 d=0x0b          --16进制数
 e="asjk"        --字符串，"\"换行符，[[字符串中括弧内容完整保留]]
 f="汇编"         --字符串
 g=e..f          --字符串拼接
 h=tostring(123) --数字转字符串
 i=tonumber("123")--字符串转数字,如果字符串不是数字则输出nil
-print(a,b,c)    --c没有赋值所以为nil
+print(a,b)    --c没有赋值所以为nil
 print(d)        --0x0b为16进制数，输出为11
 print(type(e))  --输出为string
 print(type(f))  --输出为string保留原始格式
